@@ -1,0 +1,24 @@
+﻿<Window x:Class="POE_Year2.Savings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POE_Year2"
+        WindowStartupLocation="CenterScreen" SnapsToDevicePixels="True"
+        mc:Ignorable="d"
+        Title="Savings" Height="361" Width="611">
+    <Grid HorizontalAlignment="Center" Width="617" RenderTransformOrigin="0.5,1.002" Height="341" VerticalAlignment="Top">
+        <Label Content="Savings" Width="113" FontFamily="Courier New" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,310"/>
+        <Label Content="How much would you like to save?" Margin="10,82,323,228" FontFamily="Courier New" FontSize="14"/>
+        <Label Content="Why do you want to save?" Margin="10,127,323,183" FontFamily="Courier New" FontSize="14"/>
+        <Label Content="How many years do you have to save?" Margin="10,239,297,71" FontFamily="Courier New" FontSize="14"/>
+        <TextBox x:Name="Save_Amount" HorizontalAlignment="Left" Margin="335,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Courier New" FontSize="14" Height="18"/>
+        <TextBox x:Name="Save_Reason" HorizontalAlignment="Left" Margin="335,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Courier New" FontSize="14" Height="18"/>
+        <TextBox x:Name="No_OfYears" HorizontalAlignment="Left" Margin="335,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Courier New" FontSize="14" Height="18"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="395,309,0,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="14" Width="60" Click="NextBTN" Height="20"/>
+        <Label Content="Savings interest rate" Margin="10,179,323,131" FontFamily="Courier New" FontSize="14"/>
+        <TextBox x:Name="Save_InterestRate" HorizontalAlignment="Left" Margin="335,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Courier New" FontSize="14" Height="18"/>
+
+
+    </Grid>
+</Window>
